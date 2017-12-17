@@ -1,12 +1,12 @@
-##Run server
+## Run server
 
 `php -S localhost:8000`
 
 http://localhost:8000/some-file.php
 
 
-##PHP CS
+## PHP CS
 `php-cs-fixer-v2.phar --config=.php_cs fix ./solid/*.php `
 
-##PHP MD
+## PHP MD
 `phpmd.phar ./some-file.php xml ./phpmd.xml`
