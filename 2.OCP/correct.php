@@ -38,5 +38,4 @@ class Checkout
 }
 
 $checkout = new Checkout();
-$payment = $checkout->begin(new CreditCard());
-echo $payment;
+echo $checkout->begin(new CreditCard());

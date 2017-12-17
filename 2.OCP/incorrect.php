@@ -19,5 +19,4 @@ class Checkout
 }
 
 $checkout = new Checkout();
-$payment = $checkout->payment('bitcoin');
-echo $payment;
+echo $checkout->payment('bitcoin');
