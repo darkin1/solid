@@ -2,7 +2,7 @@
 
 `php -S localhost:8000`
 
-http://localhost:8000/ocp-ok.php
+http://localhost:8000/some-file.php
 
 
 ##PHP CS
