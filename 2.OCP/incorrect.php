@@ -4,8 +4,6 @@ class Checkout
 {
     public function payment($type)
     {
-        Account::type;
-
         if ($type == 'cash') {
             $payment = 'cash';//new Chash();
         } elseif ($type == 'credit-card') {
